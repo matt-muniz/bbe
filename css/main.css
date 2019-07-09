@@ -1,0 +1,23 @@
+:root {
+  --main-color: #186e96;
+  --playfair: "Playfair Display SC", serif;
+  --arial-black: arial black;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+.btn {
+  background: var(--main-color);
+  padding: 0.4em 1em;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+}

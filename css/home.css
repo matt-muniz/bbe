@@ -1,0 +1,79 @@
+header {
+  position: relative;
+  min-height: 100vh;
+}
+.img_bg {
+  position: absolute;
+  background: url("../imgs/img1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  transform: translateX(180deg);
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.header_container {
+  padding-bottom: 2em;
+  padding-top: 10px;
+  padding-left: 4em;
+}
+.my_social-icons a img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+.logo img {
+  width: 80px;
+  height: 90px;
+  margin-top: 10px;
+}
+.logo h1 {
+  color: var(--main-color);
+  font-family: var(--arial-black);
+  font-size: 60px;
+}
+.learn_more {
+  margin-top: 20vh;
+  font-family: var(--playfair);
+}
+.learn_more h2 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.learn_more h3 {
+  font-size: 20px;
+  margin-bottom: 1em;
+}
+.learn_more a {
+  font-size: 1rem;
+  box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3);
+  position: relative;
+  transition: all 800ms ease;
+}
+.learn_more a:before,
+.learn_more a:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 2px;
+  width: 0;
+  background: var(--main-color);
+  transition: 400ms ease all;
+}
+.learn_more a:after {
+  right: inherit;
+  top: inherit;
+  left: 0;
+  bottom: 0;
+}
+.learn_more a:hover {
+  background: #fff;
+  color: var(--main-color);
+  box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.5);
+}
+.learn_more a:hover:after,
+.learn_more a:hover::before {
+  width: 100%;
+}
