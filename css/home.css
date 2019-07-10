@@ -168,6 +168,7 @@ main {
 .service_body ul li:nth-child(2) h4 {
   background: -webkit-linear-gradient(#f49c4e, #8c45a1);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 @media (min-width: 700px) {
