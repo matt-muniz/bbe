@@ -171,7 +171,7 @@ main {
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-@media (min-width: 700px) {
+@media (min-width: 600px) {
   /* Header */
   .my_social-icons a img {
     width: 20px;
@@ -244,6 +244,12 @@ main {
   /* Main */
   .service_img {
     font-size: 1.5rem;
+  }
+  .service_body ul {
+    max-width: 70%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
   }
   .sect {
     height: 110px;
