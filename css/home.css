@@ -74,15 +74,14 @@ header {
 .learn_more h3 {
   margin-bottom: 1em;
 }
-.learn_more .header_btn {
+.learn_more a {
   box-shadow: 3px 3px 7px rgba(44, 117, 155, 0.3);
   position: relative;
   transition: all 800ms ease;
   font-size: 0.9rem;
-  cursor: pointer;
 }
-.learn_more .header_btn:before,
-.learn_more .header_btn:after {
+.learn_more a:before,
+.learn_more a:after {
   content: "";
   position: absolute;
   top: 0;
@@ -92,22 +91,22 @@ header {
   background: var(--main-color);
   transition: 400ms ease all;
 }
-.learn_more .header_btn:after {
+.learn_more a:after {
   right: inherit;
   top: inherit;
   left: 0;
   bottom: 0;
 }
-.learn_more .header_btn:hover {
+.learn_more a:hover {
   background: #fff;
   color: var(--main-color);
   box-shadow: 0px 10px 7px rgba(44, 117, 155, 0.5);
 }
-.learn_more .header_btn:active {
+.learn_more a:active {
   box-shadow: 3px 3px 7px rgba(44, 117, 155, 0.3);
 }
-.learn_more .header_btn:hover:after,
-.learn_more .header_btn:hover::before {
+.learn_more a:hover:after,
+.learn_more a:hover::before {
   width: 100%;
 }
 /* Main */
