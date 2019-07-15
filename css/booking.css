@@ -1,12 +1,25 @@
 main {
   display: flex;
-  margin-top: 2em;
+  position: relative;
+  transition: all 800ms ease;
+  margin-top: 22px;
 }
 .schedule {
   width: 70%;
   min-width: 300px;
   max-width: 700px;
   margin: 0 auto;
+  transition: all 800ms ease;
+}
+.back {
+  position: absolute;
+  top: 0%;
+  left: 10px;
+  font-weight: bold;
+  color: black;
+}
+.back:hover {
+  color: var(--main-color);
 }
 .img_bg {
   position: absolute;
@@ -66,10 +79,12 @@ main {
   .logo img {
     width: 80px;
   }
-  /* .logo h1 {
+  .logo h1 {
     color: var(--main-color);
-    font-size: 60px;
-  } */
+  }
+  main {
+    margin-top: 0;
+  }
 }
 @media (min-width: 1400px) {
   .logo h1 {
