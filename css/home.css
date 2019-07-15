@@ -58,7 +58,7 @@ header {
   background: rgb(106, 255, 210);
   background: linear-gradient(
     135deg,
-    rgba(107, 253, 185, 0.5) 0%,
+    rgb(107, 253, 185) 0%,
     rgba(24, 110, 150, 0.8) 100%
   );
   box-shadow: 5px 8px 15px 1px rgba(24, 110, 150, 0.8);
