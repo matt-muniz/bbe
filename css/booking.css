@@ -20,6 +20,11 @@ main {
   left: 10px;
   font-weight: bold;
   color: black;
+  display: flex;
+  align-items: center;
+}
+.back img {
+  width: 20px;
 }
 .back:hover {
   color: var(--main-color);
