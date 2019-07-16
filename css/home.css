@@ -134,24 +134,23 @@ main {
   font-size: 1.1rem;
 }
 .sect {
-  position: relative;
-  height: 150px;
   display: grid;
   grid-template-rows: 1fr 2fr;
+  height: 150px;
   margin: 2em auto;
   max-width: 300px;
   transition: all 800ms ease;
 }
 .sect_container {
+  position: relative;
   display: flex;
-  align-items: center;
   justify-content: center;
 }
 .sect img {
   position: absolute;
   left: 0;
-  /* top: 50%; */
-  /* transform: translateY(-47px); */
+  top: 50%;
+  transform: translateY(-50%);
   width: 40px;
   transition: all 800ms ease;
 }
@@ -316,12 +315,10 @@ footer {
     grid-template-columns: repeat(2, 1fr);
   }
   .sect {
-    /* height: 125px; */
     max-width: 360px;
+    height: 175px;
   }
   .sect img {
-    /* top: 25%;
-    transform: translateY(-50%); */
     width: 50px;
   }
   .sect h4 {
