@@ -135,18 +135,23 @@ main {
 }
 .sect {
   position: relative;
-  height: 100px;
+  height: 150px;
   display: grid;
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: 1fr 2fr;
   margin: 2em auto;
   max-width: 300px;
   transition: all 800ms ease;
 }
+.sect_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .sect img {
   position: absolute;
   left: 0;
-  top: 50%;
-  transform: translateY(-47px);
+  /* top: 50%; */
+  /* transform: translateY(-47px); */
   width: 40px;
   transition: all 800ms ease;
 }
@@ -311,12 +316,12 @@ footer {
     grid-template-columns: repeat(2, 1fr);
   }
   .sect {
-    height: 125px;
+    /* height: 125px; */
     max-width: 360px;
   }
   .sect img {
-    top: 25%;
-    transform: translateY(-50%);
+    /* top: 25%;
+    transform: translateY(-50%); */
     width: 50px;
   }
   .sect h4 {
