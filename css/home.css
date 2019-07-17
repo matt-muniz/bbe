@@ -145,6 +145,7 @@ main {
   position: relative;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .sect img {
   position: absolute;
@@ -152,14 +153,15 @@ main {
   top: 50%;
   transform: translateY(-50%);
   width: 40px;
+  /* height: 40px; */
   transition: all 800ms ease;
 }
 .sect h4 {
-  align-self: center;
   transition: all 800ms ease;
 }
 .sect p {
   font-size: 0.9rem;
+  /* text-align: left; */
   transition: all 800ms ease;
 }
 .service_body .section1 li:nth-child(1) h4 {
@@ -309,7 +311,7 @@ footer {
     font-size: 1.5rem;
   }
   .service_body ul {
-    max-width: 70%;
+    max-width: 60%;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
