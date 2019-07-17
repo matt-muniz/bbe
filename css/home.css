@@ -137,7 +137,7 @@ main {
   display: grid;
   grid-template-rows: 1fr 2fr;
   height: 150px;
-  margin: 2em auto;
+  margin: 0 auto;
   max-width: 300px;
   transition: all 800ms ease;
 }
@@ -152,8 +152,9 @@ main {
   left: 0;
   top: 50%;
   transform: translateY(-50%); */
-  width: 40px;
-  height: 40px;
+  margin-right: 5px;
+  width: 25px;
+  height: 25px;
   transition: all 800ms ease;
 }
 .sect h4 {
@@ -321,7 +322,8 @@ footer {
     height: 175px;
   }
   .sect img {
-    width: 50px;
+    width: 30px;
+    height: 30px;
   }
   .sect h4 {
     font-size: 1.2rem;
