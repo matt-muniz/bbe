@@ -216,6 +216,7 @@ footer {
 .footer_container .my_social-icons {
   display: flex;
   justify-content: space-evenly;
+  margin-top: 10px;
 }
 @media (min-width: 600px) {
   /* Header */
