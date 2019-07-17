@@ -142,16 +142,16 @@ main {
   transition: all 800ms ease;
 }
 .sect_container {
-  position: relative;
+  /* position: relative; */
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
 }
 .sect img {
-  position: absolute;
+  /* position: absolute;
   left: 0;
   top: 50%;
-  transform: translateY(-50%);
+  transform: translateY(-50%); */
   width: 40px;
   height: 40px;
   transition: all 800ms ease;
@@ -161,7 +161,7 @@ main {
 }
 .sect p {
   font-size: 0.9rem;
-  /* text-align: left; */
+  text-align: left;
   transition: all 800ms ease;
 }
 .service_body .section1 li:nth-child(1) h4 {
