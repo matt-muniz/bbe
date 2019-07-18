@@ -350,6 +350,15 @@ footer {
   }
   .header_btn {
     font-size: 1rem;
+    background: var(--main-color);
+  }
+  .header_btn:before,
+  .header_btn:after {
+    background-color: var(--main-color);
+  }
+  .header_btn:hover {
+    background: #fff;
+    color: var(--main-color);
   }
   /* Main */
   .service_img {
