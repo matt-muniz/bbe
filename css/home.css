@@ -45,17 +45,17 @@ header {
   justify-content: center;
   align-items: center;
   font-family: var(--montserrat);
-  margin: 20vh auto 2em auto;
+  margin: 15vh auto 2em auto;
   transition: all 800ms ease;
-  background: rgb(106, 255, 210);
+  background: rgba(24, 110, 150);
   background: linear-gradient(
     160deg,
-    rgba(0, 245, 131) 0%,
+    rgba(24, 110, 150, 0.3) 0%,
     rgba(24, 110, 150) 100%
   );
   box-shadow: 5px 8px 15px 1px rgba(24, 110, 150, 0.8);
   border-radius: 10px;
-  height: 350px;
+  height: 450px;
   width: 90%;
   color: #fff;
 }
@@ -71,6 +71,7 @@ header {
   position: relative;
   transition: all 800ms ease;
   font-size: 0.9rem;
+  background-color: rgba(255, 0, 0, 0.7);
 }
 .header_btn:before,
 .header_btn:after {
@@ -80,7 +81,7 @@ header {
   right: 0;
   height: 2px;
   width: 0;
-  background: var(--main-color);
+  background-color: var(--main-color);
   transition: 400ms ease all;
 }
 .header_btn:after {
@@ -92,10 +93,10 @@ header {
 .header_btn:hover {
   background: #fff;
   color: var(--main-color);
-  box-shadow: 0px 10px 7px rgba(44, 117, 155, 0.5);
+  box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.5);
 }
 .header_btn:active {
-  box-shadow: 3px 3px 7px rgba(44, 117, 155, 0.3);
+  box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3);
 }
 .header_btn:hover:after,
 .header_btn:hover::before {
@@ -208,6 +209,17 @@ header {
 .cta_img h2,
 .cta_img p {
   width: 70%;
+}
+.cta_img .header_btn {
+  background: var(--main-color);
+}
+.cta_img .header_btn:before,
+.cta_img .header_btn:after {
+  background-color: var(--main-color);
+}
+.cta_img .header_btn:hover {
+  background: #fff;
+  color: var(--main-color);
 }
 /* Footer */
 footer {
