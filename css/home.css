@@ -148,10 +148,12 @@ header {
 }
 .sect h4 {
   font-size: 1.3rem;
+  font-family: var(--montserrat);
   transition: all 800ms ease;
 }
 .sect p {
   font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
   line-height: 1.4;
   text-align: left;
   transition: all 800ms ease;
@@ -200,6 +202,7 @@ header {
 }
 .cta_img p {
   margin: 0.5em 0;
+  font-family: var(--arial);
 }
 .cta_img h2,
 .cta_img p {
